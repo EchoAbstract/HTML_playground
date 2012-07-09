@@ -1,0 +1,52 @@
+body{
+    background: black;
+    color: #FF7E00;
+}
+#clk-body {
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    /*font-size: 124px;*/
+    font-size: 248px;
+    font-weight: bold;
+    postion: absolute;
+    top:0;
+    left:0;
+}
+
+.transparent {
+    zoom: 1;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+
+div.fullscreen {
+    display:block;
+
+    /*set the div in the top-left corner of the screen*/
+    position:absolute;
+    top:0;
+    left:0;
+    
+    /*set the width and height to 100% of the screen*/
+    width:100%;
+    height:100%;
+}
+
+
+#stripe {
+    background-image: url('holo_scanlines.png');
+    border-radius: 25px;
+    border-color: white;
+    border-width: 10px;
+}
+
+/* For getting pixel width */
+#Test {
+    position: absolute;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
+
+#clk-container {
+    position: relative;
+}
